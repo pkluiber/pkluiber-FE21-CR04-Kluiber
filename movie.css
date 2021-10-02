@@ -1,0 +1,51 @@
+    @media screen and (max-width: 480px) {
+        body {
+            background-color: black;
+        }
+    }
+    
+    @media screen and (min-width: 481px) and (max-width: 1200px) {
+        body {
+            background-color: black;
+        }
+    }
+    
+    @media screen and (min-width:1201px) {
+        body {
+            background-color: black;
+        }
+    }
+    
+    .color {
+        background-color: rgb(99, 75, 75);
+    }
+    
+    #name {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        margin-top: 5%;
+    }
+    
+    .card-body {
+        background-color: black;
+    }
+    
+    .card-title {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .card-desc {
+        text-decoration: none;
+        color: yellow;
+    }
+    
+    .list-group-item {
+        text-align: center;
+        font-size: xx-large;
+    }
+    
+    .giflike {
+        width: 50px;
+    }

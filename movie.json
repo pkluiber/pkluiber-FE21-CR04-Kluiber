@@ -1,0 +1,66 @@
+var marvel = `[{
+    "img": "captianamerica1.jpg",
+    "name": "Captain America: The First Avenger",
+    "description": "Steve Rogers, who was retired due to his physique, transforms into Captain America after taking a super soldier serum. But this has a price to pay when he has to stand up to a warmonger and a terrorist organization.",
+    "links": "https://www.imdb.com/video/vi2912787481?playlistId=tt0458339", 
+    "likes": 6,
+    "gif": "like.gif"
+   
+
+},{
+    "img": "avengers.jpg",
+    "name": "Avengers",
+    "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.", 
+    "links": "https://www.imdb.com/video/vi1891149081?playlistId=tt0848228",
+    "likes": 7,
+    "gif": "like.gif"
+
+}, {
+    "img": "avengers2.jpg",
+    "name": "Avengers: Age of Ultron",
+    "description": "Tony Stark and Bruce Banner want to get a peace program called Ultron off the ground, but things go wrong. The result is the malicious artificial intelligence Ultron, which wants to exterminate humanity.",
+    "links": "https://www.imdb.com/video/vi2821566745?playlistId=tt2395427",
+    "likes": 8,
+    "gif": "like.gif"
+    
+},{
+    "img": "avengers3.jpg",
+    "name": "Avengers: Infinity War",
+    "description": "The Avengers and their allies must be willing to sacrifice everything to defeat the mighty Thanos before his galactic destruction plan puts an end to the universe.",
+    "links": "https://www.imdb.com/video/vi528070681?playlistId=tt4154756",
+    "likes": 9,
+    "gif": "like.gif"
+
+}, {
+    "img": "avengers4.jpg",
+    "name": "Avengers: Endgame",
+    "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of the rest of the allies, the Avengers once again assemble To undo's actions and restore order in the universe.",
+    "links": "https://www.imdb.com/video/vi2163260441?playlistId=tt4154796", 
+    "likes": 10,
+    "gif": "like.gif"
+
+}, {
+    "img": "ironman.jpg",
+    "name": "Iron Man",
+    "description": "After being held captive in an Afghan cave, billionaire Tony Stark creates a unique armor to fight evil.", 
+    "links": "https://www.imdb.com/video/vi447873305?playlistId=tt0371746",
+    "likes": 5,
+    "gif": "like.gif"
+
+},{
+    "img": "ironman2.jpg",
+    "name": "Iron Man 2",
+    "description": "With the world now aware of his identity as Iron Man, he must struggle with both his declining health and a vengeful crazy man with ties to his father's legacy.",
+    "links": "https://www.imdb.com/video/vi2256077849?playlistId=tt1228705",
+    "likes": 3,
+    "gif": "like.gif"
+
+},{
+    "img": "ironman3.jpg",
+    "name": "Iron Man 3",
+    "description": "When Tony Stark's world is destroyed by a fearsome terrorist named Mandarin, he embarks on an odyssey of reconstruction and retaliation.",
+    "links": "https://www.imdb.com/video/vi2830738969?playlistId=tt1300854",
+    "likes": 4,
+    "gif": "like.gif"
+
+}]`
