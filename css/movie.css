@@ -1,12 +1,14 @@
     @media screen and (max-width: 480px) {
         body {
             background-color: black;
+            width: 10%;
         }
     }
     
     @media screen and (min-width: 481px) and (max-width: 1200px) {
         body {
             background-color: black;
+            width: 50%;
         }
     }
     
@@ -33,11 +35,9 @@
     
     .card-title {
         color: white;
-        text-decoration: none;
     }
     
     .card-desc {
-        text-decoration: none;
         color: yellow;
     }
     

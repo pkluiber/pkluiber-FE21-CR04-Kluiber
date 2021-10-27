@@ -5,16 +5,18 @@ for (let marvel of marvParsed) {
     console.log(marvel);
     output.innerHTML +=
         `
-    <a href="#" data-bs-toggle="modal" data-bs-target="#static${i}">
-        <div class="card" style="width: 20rem; ">
-            <img src="${marvel.img}" class="card-img-top" alt="marvel">
+<div>
+    <div>
+    <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#static${i}">
+        <div class="card " style="width: 20rem; ">
+            <img src="${marvel.img}" class="card-img-top " alt="marvel">
             <div class="card-body ">
                 <h5 class="card-title ">${marvel.name}</h5>
                 <h6 class="card-desc ">${marvel.description}</h6>
-                <h4 class="li text-end">Like<img class="giflike" src="${marvel.gif}" alt="gif">${marvel.likes}</h4>
             </div>
         </div>
     </a>
+</div>
 
     <div class="modal fade" id="static${i}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" " aria-hidden="true">
         <div class="modal-dialog">
@@ -35,4 +37,12 @@ for (let marvel of marvParsed) {
 
     `;
     i++;
+}
+
+
+var i = 0;
+
+function buttonClick() {
+    i++;
+    document.getElementById('inc').value = i;
 }
